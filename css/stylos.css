@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: #fff;
+}
+img{
+    width: 100%;
+}
+header {
+    background-color: rgb(0, 0, 0, .9);
+    color: #fff;
+    height: 6em;
+}
+h1{
+    color: #fff;
+}
+a{
+    text-decoration: none;
+}
+article{
+    background-color: #f0f8ff;
+}
+aside{
+    background-color: #d2691e;
+    color:#fff;
+}
+footer{
+    background-color: #000;
+    color: #fff;
+    padding: 25px 0;
+    margin-top: 10px;
+    height: 6em;
+}
+.bdr-shw{
+   box-shadow: 5px 5px 7px #1e1f20;
+   
+}
