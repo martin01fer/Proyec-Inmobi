@@ -40,12 +40,32 @@ article{
     background-size: cover;
     background-repeat: no-repeat;
 }
+.art-man{
+    background-image:url("../img/publi/img-family10.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.art-com{
+    background-image:url("../img/publi/publi8.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;  
+}
+.art-casu{
+    background-image:url("../img/publi/img-family9.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;   
+}
+.art-ala{
+    background-image:url("../img/publi/publi7.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;     
+}
 article p{
     background-color: rgb(255, 255, 255, 0.5);
     padding: 10px;
 }
 aside{
-    background-color: #d2691e;
+    background-color: rgba(51, 48, 47, 0.5);
     color:#fff;
 }
 footer{
