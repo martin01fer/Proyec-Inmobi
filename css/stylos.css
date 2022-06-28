@@ -7,11 +7,12 @@ body{
 .tam-img{
     width: 100px;
     height: 100px;
-    padding-top: 20px;
+    line-height: 50%;
+    border-radius: 50px;
+    margin: 5px;
 }
 .logo{
-    display: flex;    
-
+    display: flex; 
 }
 
 img{
@@ -19,18 +20,15 @@ img{
 }
 header {
     background-color: rgb(0, 0, 0);
-    color: #fff;
-   
+    color: #fff;   
     height: 8em;
     margin-bottom: 10px;
-    display: flex;
-    
+    display: flex;    
     justify-content: center;
-    align-content: space-between;
-    
+    align-content: space-between;    
 }
 h1{
-    color: #fff;
+    color: #fff;   
 }
 a{
     text-decoration: none;
@@ -39,6 +37,9 @@ article{
     background-image:url("../img/publi/img-family7.jpg");
     background-size: cover;
     background-repeat: no-repeat;
+    height: 600px;
+    margin-top: 20px;
+  
 }
 .art-man{
     background-image:url("../img/publi/img-family10.jpg");
@@ -59,6 +60,13 @@ article{
     background-image:url("../img/publi/publi7.jpg");
     background-size: cover;
     background-repeat: no-repeat;     
+}
+section{
+    margin-top: 20px;
+  
+}
+.alto{
+    height: 600px;
 }
 article p{
     background-color: rgb(255, 255, 255, 0.5);
