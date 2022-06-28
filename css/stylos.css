@@ -81,7 +81,7 @@ footer{
     color: #fff;
     padding: 25px 0;
     margin-top: 10px;
-    height: 6em;
+    /*height: 6em;*/
 }
 .bdr-shw{
    box-shadow: 5px 5px 7px #1e1f20;
