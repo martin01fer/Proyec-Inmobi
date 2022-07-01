@@ -35,8 +35,8 @@
                   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                   </button>
-                  <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-rigth mb-2 mb-lg-0 ">
+                  <div class="collapse navbar-collapse justify-content-end me-5" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-right mb-2 mb-lg-0 ">
                       <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="#">Inicio</a>
                       </li>
@@ -67,12 +67,18 @@
                           <li><a class="dropdown-item" href="#">Inversiones</a></li>
                         </ul>
                       </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="#">Servicios</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link " href="#" tabindex="-1" aria-disabled="true">Contacto</a>
-                      </li>
+                      
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Contáctos
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item" href="#"><img class="logo-redes-menu "src="./img/logo/wspLOg.jpg" alt="Logo de wsp">_Whatssapp</a></li>
+                          <li><a class="dropdown-item" href="#"><img class="logo-redes-menu "src="./img/logo/faceLog2.jpg" alt="Logo de facebook">_Facebook</a></li>
+                          <li><a class="dropdown-item" href="#"><img class="logo-redes-menu "src="./img/logo/LogoInstagram1.jpg" alt="Logo de Instagram">_Instagram</a></li>
+                          <li><a class="dropdown-item" href="#"><img class="logo-redes-menu "src="./img/logo/correoLog6.jpg" alt="Logo de mail">_Mail:</a></li>                          
+                        </ul>
+                      </li>                      
                     </ul>
                     
                   </div>
@@ -234,9 +240,29 @@
     </div>
   </div>
     <footer>
-        <div class="container">
-          <H3 class="display-4"><b>Grupo GUILLÉN SA.</b></H3> 
-          <p class="lead">DESARROLLOS URBANOS</p>
+        <div class="container ">
+             <div class="row ">
+                 <div class="col-xs-12 col-md-4  text-center">
+                    <H3 class="display-6"><b>Grupo GUILLÉN SA.</b></H3> 
+                     <p class="lead">DESARROLLOS URBANOS</p>
+                 </div>
+                  <div class= "col-xs-12 col-md-4 text-center">
+                         <h2>Contactos</h2>
+                         <a href="#"><img class="logo-redes "src="./img/logo/wspLOg.jpg" alt="Logo de wsp"></a>
+                         <a href="#"><img class="logo-redes "src="./img/logo/faceLog2.jpg" alt="Logo de facebook"></a>
+                         <a href="#"><img class="logo-redes "src="./img/logo/LogoInstagram1.jpg" alt="Logo de wsp"></a>
+                 </div>
+                  <div class="col-md-4 text-center">
+                    <address class="">
+                      Dirección: Avenida 19 N°xxx<br>
+                      Localidad: La Plata<br>
+                      Cod. Postal: 1900.
+                    </address>
+                  </div>
+             </div>
+             <div class="row">          
+             </div>
+
         </div>
     </footer>
     <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
